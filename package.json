@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "progressbar.js": "^1.1.0",
+    "vanilla-tilt": "^1.7.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  },
+  "scripts": {
+    "build": "browserify app.js -o ./public/bundle.js"
+  }
+}
